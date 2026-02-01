@@ -1,5 +1,7 @@
 # AppSync Lambda Cache Invalidation
 
+Companion repo to the article: https://dev.to/aws-builders/appsync-cache-eviction-with-lambda-data-sources-2ne5
+
 A demonstration of cache invalidation patterns for AWS AppSync when using Lambda data sources. Shows how to implement cache eviction using both VTL and JavaScript response mapping templates.
 
 ## Overview
