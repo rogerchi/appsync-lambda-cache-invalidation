@@ -1,0 +1,14 @@
+type Fruit {
+  type: String
+  quantity: Int
+}
+
+type Query {
+  fruit(bowlId: Int!): Fruit
+}
+
+type Mutation {
+  pickFruit(bowlId: Int!): Fruit
+  pickFruitVtl(bowlId: Int!): Fruit
+  pickFruitJS(bowlId: Int!): Fruit
+}

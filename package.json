@@ -1,0 +1,20 @@
+{
+  "name": "appsync-lambda-cache-invalidation",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "deploy": "bun cdk deploy --outputs-file .cdk.outputs.json",
+    "test": "bun run test-script.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.1.0",
+    "aws-cdk": "^2.1104.0",
+    "aws-cdk-lib": "^2.236.0",
+    "constructs": "^10.4.5"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

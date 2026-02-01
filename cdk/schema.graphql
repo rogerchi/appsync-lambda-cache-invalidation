@@ -1,0 +1,9 @@
+type Query {
+  fruit: String
+}
+
+type Mutation {
+  pickFruit: String
+  pickFruitVtl: String
+  pickFruitJS: String
+}
